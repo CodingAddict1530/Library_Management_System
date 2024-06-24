@@ -172,7 +172,7 @@ public class Author {
                 "author_id = " + author_id +
                 ", first_name = '" + first_name + '\'' +
                 ", last_name = '" + last_name + '\'' +
-                ", date_added = " + DateTimeUtil.formatToIso(date_added) +
+                ", date_added = " + DateTimeUtil.formatToCustom3(date_added) +
                 '}';
     }
 }

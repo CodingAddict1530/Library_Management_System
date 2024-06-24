@@ -229,10 +229,10 @@ public class Borrow {
                 "borrowing_id = " + borrowing_id +
                 ", book_id = " + book_id +
                 ", user_id = " + user_id +
-                ", borrowing_date = " + DateTimeUtil.formatToIso(borrowing_date) +
-                ", expected_return_date = " + DateTimeUtil.formatToIso(expected_return_date) +
+                ", borrowing_date = " + DateTimeUtil.formatToCustom3(borrowing_date) +
+                ", expected_return_date = " + DateTimeUtil.formatToCustom3(expected_return_date) +
                 ", actual_return_date = " + ((actual_return_date != null) ?
-                DateTimeUtil.formatToIso(actual_return_date) : "NULL") +
+                DateTimeUtil.formatToCustom3(actual_return_date) : "NULL") +
                 '}';
     }
 }

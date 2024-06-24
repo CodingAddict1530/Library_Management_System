@@ -244,7 +244,7 @@ public class Book {
                 ", title = '" + title + '\'' +
                 ", description = '" + description + '\'' +
                 ", number_of_pages = " + number_of_pages +
-                ", date_added = " + DateTimeUtil.formatToCustom2(date_added) +
+                ", date_added = " + DateTimeUtil.formatToCustom3(date_added) +
                 ", genre = '" + genre + '\'' +
                 ", author_id = " + author_id +
                 '}';

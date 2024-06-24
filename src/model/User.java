@@ -196,7 +196,7 @@ public class User {
                 "user_id=" + user_id +
                 ", first_name = '" + first_name + '\'' +
                 ", last_name = '" + last_name + '\'' +
-                ", date_added = " + DateTimeUtil.formatToIso(date_added) +
+                ", date_added = " + DateTimeUtil.formatToCustom3(date_added) +
                 ", booking_record = " + ((booking_record) ? "Clean" : "Not Clean") +
                 '}';
     }
